@@ -30,6 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    '127.0.0.1',
+    '0.0.0.0',
     'aritroghosal-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
 ]
 
