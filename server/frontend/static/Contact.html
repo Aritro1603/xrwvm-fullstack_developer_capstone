@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us - Best Cars</title>
+
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+  <style>
+    .contact-container {
+      width: 80%;
+      margin: 5% auto;
+    }
+
+    .contact-header {
+      background-color: darkturquoise;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .contact-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 30px;
+    }
+
+    .contact-card {
+      flex: 1;
+      min-width: 280px;
+      padding: 25px;
+    }
+
+    .contact-card h3 {
+      margin-bottom: 20px;
+    }
+
+    .contact-card p {
+      line-height: 1.7;
+    }
+
+    .contact-image {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light"
+       style="background-color: darkturquoise; height: 1in;">
+
+    <div class="container-fluid">
+
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link"
+               style="font-size: larger;"
+               href="/">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               style="font-size: larger;"
+               href="/about/">
+              About Us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active"
+               style="font-size: larger;"
+               aria-current="page"
+               href="/contact/">
+              Contact Us
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="card contact-container">
+
+    <div class="contact-header">
+      <h1>Contact Us</h1>
+
+      <p>
+        We'd love to hear from you. Our Best Cars team is here to answer
+        your questions and help you find your next vehicle.
+      </p>
+    </div>
+
+
+    <div class="contact-content">
+
+      <div class="contact-card">
+
+        <img src="/static/contactus.png"
+             alt="Best Cars dealership"
+             class="contact-image">
+
+        <h3>Best Cars Dealership</h3>
+
+        <p>
+          Visit our dealership or contact our team for assistance with
+          vehicle selection, financing, service, and general inquiries.
+        </p>
+
+        <p>
+          <strong>Address:</strong><br>
+          1250 Market Street<br>
+          Kansas City, KS 66101<br>
+          United States
+        </p>
+
+      </div>
+
+
+      <div class="contact-card">
+
+        <h3>Get in Touch</h3>
+
+        <p>
+          <strong>Phone:</strong><br>
+          +1 (913) 555-0147
+        </p>
+
+        <p>
+          <strong>Email:</strong><br>
+          contact@bestcars.com
+        </p>
+
+        <p>
+          <strong>Business Hours:</strong><br>
+          Monday - Friday: 9:00 AM - 7:00 PM<br>
+          Saturday: 9:00 AM - 5:00 PM<br>
+          Sunday: 10:00 AM - 4:00 PM
+        </p>
+
+        <p>
+          Our customer support team will be happy to help with your
+          questions and dealership inquiries.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
